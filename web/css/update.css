@@ -1,0 +1,18 @@
+body{
+    background-image: url('img/create_food.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    color: white; 
+}
+
+div{
+    text-align: center;
+    margin-top: 10%;
+}

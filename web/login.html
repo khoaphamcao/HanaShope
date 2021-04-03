@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body {
+                background-image: url('img/login_img.jpg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+                text-align: center; 
+                margin-top: 10%;
+            }
+            a:link {
+                color: whitesmoke;
+            }
+        </style>
+
+
+
+    </head>
+
+
+    <body>
+        <h1> <font color ='white'>Login To Your Account </font></h1>
+        <form action="DispatchServlet" method="POST">
+            <font color ='white'> Username: </font> <input type="text" name="txtUsername" value="" /> <br/> <br/>
+            <font color ='white'> Password: </font> <input type="password" name="txtPassword" value="" /> <br/><br/>
+
+            <input type="submit" value="Submit" name="btAction" />
+            <input type="submit" value="Return to Hana Shop" name="btAction" /> <br>
+            <br/><a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8084/J3.L.P0013/LoginGoogleServlet&response_type=code
+               &client_id=163048625608-krn9b0r84pvg99m8i89c4h6op4l6b40d.apps.googleusercontent.com&approval_prompt=force">Login With Google</a> 
+        </form>
+    </body>
+
+
+
+
+
+</html>
